@@ -1,14 +1,20 @@
 {
-    "name": "percontmx/codeigniter4-module-template",
-    "description": "Codeigniter 4 module template and project starter.",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Alex Percont",
-            "email": "alex@softwarepercont.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "percontmx/codeigniter4-module-template",
+  "description": "Codeigniter 4 module template and project starter.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Percont",
+      "email": "alex@softwarepercont.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {
+    "codeigniter4/framework": "^4.1"
+  }
 }
